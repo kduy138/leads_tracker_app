@@ -1,3 +1,3 @@
 # leads_tracker_app
-An app I learned to build
-By Duy
+Leads tracker app,
+freecodecamp.org helped me a lot.
