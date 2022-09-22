@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    min-width: 350px;
+    background-color: rgb(25, 22, 37);
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+a {
+    color: rgb(25, 22, 37);
+}
+
+#input-btn, #delete-btn, #tab-btn {
+    text-transform: uppercase;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background-color: white;
+    color: rgb(25, 22, 37);
+    box-shadow: 0 0 0 1px rgb(25, 22, 37);
+}
+
+#input-btn:hover, #tab-btn:hover {
+    background-color: white;
+    color: rgb(25, 22, 37);
+    box-shadow: 0 0 0 1px rgb(25, 22, 37);
+}
+
+#delete-btn:hover {
+    background-color: royalblue;
+    color: white;
+
+}
+
+#input-el {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(25, 22, 37);
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+#box {
+    cursor: pointer;
+    background-color: lightseagreen;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+}
+
